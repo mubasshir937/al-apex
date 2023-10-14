@@ -1,0 +1,20 @@
+input[type="text"],
+input[type="Int"],
+select{
+    width: 20rem;
+   
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+/* .main{
+    display: inline-block;
+} */
+
+.main form {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 16px;
+}
